@@ -1,6 +1,7 @@
 // Program made by Xanths58
 // Check out my other works at https://xanthus58.github.io/Xanthus58/
 // or https://github.com/Xanthus58
+// Feel fee to interact with the project here https://github.com/Xanthus58/robux_calculator
 
 use std::io;
 use colour::*;
