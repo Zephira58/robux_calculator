@@ -3,28 +3,32 @@
 // or https://github.com/Xanthus58
 // Feel fee to interact with the project here https://github.com/Xanthus58/robux_calculator
 
-use std::io;
 use colour::*;
+use std::io;
 //function that gets user input and returns a float
 fn get_input() -> f64 {
     //create a variable to hold the user input
     let mut input = String::new();
     //get the user input
-    io::stdin().read_line(&mut input).expect("Failed to read line");
+    io::stdin()
+        .read_line(&mut input)
+        .expect("Failed to read line");
     //convert the input to a float
     input.trim().parse::<f64>().expect("Please type a number")
 }
 
 //function that clears the screen
 fn cls() {
-    print!("{esc}c", esc = 27 as char); 
+    print!("{esc}c", esc = 27 as char);
 }
 
 //function that gets user input before shutting down the program
 fn get_input_and_exit() {
     println!("Press enter key to exit");
     let mut input = String::new();
-    io::stdin().read_line(&mut input).expect("Failed to read line");
+    io::stdin()
+        .read_line(&mut input)
+        .expect("Failed to read line");
 }
 
 fn main() {
