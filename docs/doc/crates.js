@@ -1,0 +1,1 @@
+window.ALL_CRATES = ["bitflags","cfg_if","colour","crossterm","instant","lazy_static","libc","lock_api","log","mio","parking_lot","parking_lot_core","robux_calculator","scopeguard","signal_hook","signal_hook_registry","smallvec"];
